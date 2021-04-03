@@ -12,7 +12,7 @@ public class Translator {
 
   
   public static void main(String[] args) throws Exception {
-    // TODO: Specify your translation requirements here:
+   
     String fromLang = "en";
     String toLang = "es";
     String text = "Hello";
@@ -21,7 +21,7 @@ public class Translator {
   }
 
   public static void translate(String fromLang, String toLang, String text) throws Exception {
-    // TODO: Should have used a 3rd party library to make a JSON string from an object
+   
     String jsonPayload = new StringBuilder()
       .append("{")
       .append("\"fromLang\":\"")
